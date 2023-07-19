@@ -41,7 +41,7 @@ function App() {
 
   return (
     <div id="backgound101" style={{ backgroundImage: "url('https://e6wjnitftpz.exactdn.com/wp-content/uploads/2022/08/raidy_day_read-1024x576.jpg?strip=all&lossy=1&ssl=1')" }}>
-      <div className="d-flex justify-content-center my-5">
+      <div className="d-flex justify-content-center">
         <div className="card my-5 px-5 py-5 shadow">
           <h1 className="text-center py-4 bx-3 shadow">
             <span className="text-warning">Todo</span> App in React{" "}
