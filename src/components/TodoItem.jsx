@@ -22,9 +22,7 @@ function TodoItem(props) {
           onChange={handleCheck}
         />
         <label htmlFor={props.taskId}>
-          <span
-            className={isChecked ? "task-name completed" : "task-name"}
-          >
+          <span className={isChecked ? "task-name completed" : "task-name"}>
             {props.taskName}
           </span>
         </label>
